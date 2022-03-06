@@ -1,0 +1,52 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.realHeader{
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.spinner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.header {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.wave {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
